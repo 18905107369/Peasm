@@ -1,0 +1,78 @@
+{
+    "primary": {
+        "Analyzability": {
+            "Modularity": 3,
+            "Standardizability": 5,
+            "Modifiability": 1,
+            "Stability": 7
+        },
+        "Modularity": {
+            "Standardizability": 2,
+            "Modifiability": 0.333,
+            "Stability": 5
+        },
+        "Standardizability": {
+            "Modifiability": 0.2,
+            "Stability": 3
+        },
+        "Modifiability": {
+            "Stability": 7
+        }
+    },
+    "secondary": {
+        "Analyzability": {
+            "Efficiency of Failure Diagnosis": 2,
+            "Proportion": 1
+        },
+        "Modularity": {
+            "Modular Cohesion": 3,
+            "Rationality of the Module Structure": 1
+        },
+        "Standardizability": {
+            "Code legibility": 1,
+            "Documentation Maintenance Guidance": 4,
+            "Data Specification": 3
+        },
+        "Modifiability": {
+            "Changeability": 2,
+            "Modification Efficiency": 3,
+            "Controllability of Modifications": 1
+        },
+        "Stability": {
+            "Localization of Modification Effects": 1
+        }
+    },
+    "tertiary": {
+        "Efficiency of Failure Diagnosis": {
+            "Accuracy of Failure Diagnosis": 3,
+            "Time of Failure Diagnosis": 1
+        },
+        "Proportion": {
+            "Valid Leads Proportion": 2,
+            "Comprehensible Cues Proportion": 1
+        },
+        "Modular Cohesion": {
+            "Rationality of the Module Structure": 1
+        },
+        "Code legibility": {
+            "Adequacy of Comments": 1,
+            "Comment Specification": 1,
+            "Code Specification": 1
+        },
+        "Changeability": {
+            "Code Modifiability": 1,
+            "Configurability": 1
+        },
+        "Modification Efficiency": {
+            "Efficiency of Modification Cycles": 1,
+            "Efficiency of Modification Implementation": 1,
+            "Modifications Complexity": 1
+        },
+        "Controllability of Modifications": {
+            "Software Modification Control Capability": 1
+        },
+        "Localization of Modification Effects": {
+            "Localization of Modification Effects": 1
+        }
+    }
+}
